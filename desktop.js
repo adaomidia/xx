@@ -3,7 +3,7 @@ var box;
 var adsVideo;
 var qtdCliques = 0;
 var intervalClique1;
-var segundos = 10;
+var segundos = 7;
 var loading;
 var p1;
 var p2;
