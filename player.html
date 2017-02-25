@@ -47,8 +47,8 @@ var videoEscolhido = idVideos[Math.floor((Math.random() * idVideos.length))];
         player = new YT.Player('player', {
           height: '480',
           width: '854',
-          autoplay: 1,
-          start: 1,
+          autoplay: 9,
+          start: 9,
           videoId: videoEscolhido,
           events: {
             'onReady': onPlayerReady,
@@ -73,7 +73,6 @@ setTimeout(mute, 100);
       }
       function stopVideo() {
                 player.playVideo(9);
-                player.seekTo(9);
                 player.mute();
             }
 function mute() { player.mute(); } 
